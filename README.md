@@ -4,6 +4,18 @@ Gemini Gem veya GPT için `PERSONA.md` üreten, chapter-by-chapter çalışan Co
 
 ## Kurulum
 
+GitHub'dan doğrudan PowerShell kurulumu:
+
+```powershell
+$installer = Join-Path $env:TEMP 'install-master-gem-architect.ps1'
+Invoke-WebRequest 'https://raw.githubusercontent.com/gelsin-salihx/SKILLX/main/install-from-github.ps1' -OutFile $installer
+& $installer
+```
+
+Mevcut kurulumu yenilemek için son komuta `-Force` ekleyin.
+
+Alternatif olarak depoyu indirip:
+
 PowerShell:
 
 ```powershell
