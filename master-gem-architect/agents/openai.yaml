@@ -1,0 +1,5 @@
+interface:
+  display_name: "Master Gem Architect"
+  short_description: "Build persona.md chapter by chapter"
+  default_prompt: "Create a persona.md through the DRAFT, REVIEW, LOCKED chapter workflow."
+
